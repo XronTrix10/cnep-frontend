@@ -5,7 +5,14 @@
 const page = (): JSX.Element => {
   return (
     <main className="h-screen flex flex-row px-36 gap-x-20 py-12 *:max-h-screen *:w-1/2">
-      <div className=""></div>
+      <div className="grid place-content-center">
+        <article className="*:font-pacifico text-5xl text-left pr-44 flex flex-col gap-y-6">
+          <span>Community</span>
+          <span>Need</span>
+          <span>Exchange</span>
+          <span>Platform</span>
+        </article>
+      </div>
       <div className="bg-white/5 border border-white/15 rounded-3xl ">
         <h2 className="text-center font-pacifico text-3xl mt-12 mb-20">
           Continue With
@@ -13,7 +20,7 @@ const page = (): JSX.Element => {
 
         <div className="flex flex-col gap-y-4 justify-center items-center">
           <button className="px-4 py-2 bg-white rounded-lg text-black w-72">
-            Continue with google
+            Continue with Google
           </button>
           <button className="px-4 py-2 bg-white rounded-lg text-black w-72">
             Continue with Facebook
@@ -26,7 +33,8 @@ const page = (): JSX.Element => {
           <div className="flex flex-col items-center justify-center gap-y-4">
             <input
               type="email"
-              className="border border-white/15 bg-white/5 w-72 rounded-lg py-[6px] px-2"
+              autoFocus
+              className="border border-white/15 bg-white/5 w-72 rounded-lg py-2 px-2"
             />
             <button className="px-4 py-2 bg-white rounded-lg text-black w-72">
               Continue with email
