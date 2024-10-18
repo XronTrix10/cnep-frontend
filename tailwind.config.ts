@@ -14,6 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         noto: ["var(--font-noto)"],
+        pacifico : ["var(--font-pacifico)"]
       }
     },
   },
